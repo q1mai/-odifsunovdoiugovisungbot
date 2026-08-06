@@ -9,13 +9,16 @@ WEBHOOK_URL = os.environ.get('RENDER_EXTERNAL_URL')
 print(f"TOKEN задан: {bool(TOKEN)}")
 print(f"WEBHOOK_URL: {WEBHOOK_URL}")
 
-# threaded=False — обрабатываем синхронно, чтобы видеть ошибки сразу
 bot = telebot.TeleBot(TOKEN, threaded=False)
 app = Flask(__name__)
 
 GROUP_CHAT_ID = -5363411318
 
-forwarding = {}  # {chat_id: True/False} — включена ли пересылка для этого чата
+forwarding = {}
+
+@bot.message_handler(commands=['start'])
+def start(message):
+    bot.send_message(message.chat.id, "Привет! Я бот на вебхуке.")
 
 @bot.message_handler(commands=['savemymessages'])
 def start_forwarding(message):

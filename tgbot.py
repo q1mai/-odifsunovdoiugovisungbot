@@ -19,7 +19,7 @@ def start(message):
 
 @bot.message_handler(func=lambda message: 'кот на скейте' in message.text.lower())
 def kot(message):
-    with open('90a9908220459a3e851c2d9db9db28ed', 'rb') as photo:
+    with open('90a9908220459a3e851c2d9db9db28ed.jpg', 'rb') as photo:
         bot.send_photo(message.chat.id, photo)
     bot.send_message(message.chat.id, 'не пиши сюда больше')
 

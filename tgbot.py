@@ -13,9 +13,21 @@ print(f"WEBHOOK_URL: {WEBHOOK_URL}")
 bot = telebot.TeleBot(TOKEN, threaded=False)
 app = Flask(__name__)
 
-@bot.message_handler(commands=['start'])
-def start(message):
-    bot.send_message(message.chat.id, "Привет! Я бот на вебхуке.")
+GROUP_CHAT_ID = -5363411318
+
+forwarding = {}  # {chat_id: True/False} — включена ли пересылка для этого чата
+
+@bot.message_handler(commands=['savemymessages'])
+def start_forwarding(message):
+    chat_id = message.chat.id
+    forwarding[chat_id] = True
+    bot.reply_to(message, "Окей, теперь пересылаю все твои сообщения в группу. Напиши /stopforwarding, чтобы остановить.")
+
+@bot.message_handler(commands=['stopforwarding'])
+def stop_forwarding(message):
+    chat_id = message.chat.id
+    forwarding[chat_id] = False
+    bot.reply_to(message, "Окей, больше не пересылаю сообщения.")
 
 @bot.message_handler(func=lambda message: 'кот на скейте' in message.text.lower())
 def kot(message):
@@ -23,24 +35,18 @@ def kot(message):
         bot.send_photo(message.chat.id, photo)
     bot.send_message(message.chat.id, 'не пиши сюда больше')
 
-GROUP_CHAT_ID = -5363411318
-
-@bot.message_handler(commands=['savemymessages'])
-def forward_to_group(message):
-    chat_id = message.chat.id
-    user = message.from_user
-    username = f"@{user.username}" if user.username else user.first_name
-
-    text_to_group = f"Сообщение от {username} (id: {user.id}):\n{message.text}"
-
-    bot.send_message(GROUP_CHAT_ID, text_to_group)
-    bot.reply_to(message, "Спасибо, твоё сообщение получено!")
-
 @bot.message_handler(func=lambda message: True)
 def echo_all(message):
-    print(f"Получено сообщение: {message.text} от {message.chat.id}")
-    bot.reply_to(message, f"Ты написал: {message.text}")
+    chat_id = message.chat.id
+    print(f"Получено сообщение: {message.text} от {chat_id}")
 
+    if forwarding.get(chat_id):
+        user = message.from_user
+        username = f"@{user.username}" if user.username else user.first_name
+        text_to_group = f"Сообщение от {username} (id: {user.id}):\n{message.text}"
+        bot.send_message(GROUP_CHAT_ID, text_to_group)
+    else:
+        bot.reply_to(message, f"Ты написал: {message.text}")
 
 @app.route(f'/{TOKEN}', methods=['POST'])
 def webhook():

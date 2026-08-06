@@ -30,14 +30,9 @@ def webhook():
 def index():
     return 'Bot is running', 200
 
-if __name__ == '__main__':
-    try:
-        bot.remove_webhook()
-        bot.set_webhook(url=f"{WEBHOOK_URL}/{TOKEN}")
-        print("Webhook установлен успешно")
-    except Exception as e:
-        print(f"Ошибка при установке вебхука: {e}")
-
-    port = int(os.environ.get('PORT', 5000))
-    print(f"Запускаю сервер на порту {port}")
-    app.run(host='0.0.0.0', port=port)
+try:
+    bot.remove_webhook()
+    bot.set_webhook(url=f"{WEBHOOK_URL}/{TOKEN}")
+    print("Webhook установлен успешно")
+except Exception as e:
+    print(f"Ошибка при установке вебхука: {e}")

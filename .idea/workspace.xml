@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7763ad5-e754-4650-ab80-c3c281a35562" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tgbot.py" beforeDir="false" afterPath="$PROJECT_DIR$/tgbot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,38 +31,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.16 задание.executor&quot;: &quot;Run&quot;,
-    &quot;Python.17 задание.executor&quot;: &quot;Run&quot;,
-    &quot;Python.25 задание.executor&quot;: &quot;Run&quot;,
-    &quot;Python.5 задание.executor&quot;: &quot;Run&quot;,
-    &quot;Python.8 задание.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tgbot.executor&quot;: &quot;Run&quot;,
-    &quot;Python.while.executor&quot;: &quot;Run&quot;,
-    &quot;Python.говнопоинфе.executor&quot;: &quot;Run&quot;,
-    &quot;Python.дз по if.executor&quot;: &quot;Run&quot;,
-    &quot;Python.егэшка.executor&quot;: &quot;Run&quot;,
-    &quot;Python.задание 6 черепаха.executor&quot;: &quot;Run&quot;,
-    &quot;Python.калькулятор.executor&quot;: &quot;Run&quot;,
-    &quot;Python.тест от клода.executor&quot;: &quot;Run&quot;,
-    &quot;Python.уйк.executor&quot;: &quot;Run&quot;,
-    &quot;Python.хзчеэто.executor&quot;: &quot;Run&quot;,
-    &quot;Python.черепаха.executor&quot;: &quot;Run&quot;,
-    &quot;Python.шифрование.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.16 задание.executor": "Run",
+    "Python.17 задание.executor": "Run",
+    "Python.25 задание.executor": "Run",
+    "Python.5 задание.executor": "Run",
+    "Python.8 задание.executor": "Run",
+    "Python.tgbot.executor": "Run",
+    "Python.while.executor": "Run",
+    "Python.говнопоинфе.executor": "Run",
+    "Python.дз по if.executor": "Run",
+    "Python.егэшка.executor": "Run",
+    "Python.задание 6 черепаха.executor": "Run",
+    "Python.калькулятор.executor": "Run",
+    "Python.тест от клода.executor": "Run",
+    "Python.уйк.executor": "Run",
+    "Python.хзчеэто.executor": "Run",
+    "Python.черепаха.executor": "Run",
+    "Python.шифрование.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="PythonProject1" type="PythonConfigurationType" factoryName="Python">
       <module name="PythonProject1" />
@@ -135,11 +137,23 @@
       <workItem from="1784727360818" duration="3009000" />
       <workItem from="1785995678920" duration="16000" />
       <workItem from="1785995706929" duration="3158000" />
+      <workItem from="1786000254881" duration="1668000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject1$tgbot.coverage" NAME="tgbot Coverage Results" MODIFIED="1785998032281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

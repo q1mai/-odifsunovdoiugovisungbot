@@ -16,7 +16,7 @@ app = Flask(__name__)
 @bot.message_handler(commands=['start'])
 def start(message):
     print(f"Получена команда /start от {message.chat.id}")
-    bot.reply_to(message, "Привет! Я бот на вебхуке.")
+    bot.reply_to("Привет! Я бот на вебхуке.")
 
 @bot.message_handler(func=lambda message: True)
 def echo_all(message):

@@ -17,10 +17,10 @@ app = Flask(__name__)
 def start(message):
     bot.send_message(message.chat.id, "Привет! Я бот на вебхуке.")
 
-@bot.message_handler(func=lambda message: 'ты че кот на скейте' in message.text)
+@bot.message_handler(func=lambda message: 'кот на скейте' in message.text.lower())
 def kot(message):
-    bot.send_photo(message.chat_id, 'https://www.meme-arsenal.com/create/chose?tag=%D0%A2%D0%B5%D1%80%D0%BF%D0%B8%D0%BB%D0%B0')
-    bot.send_message(message.chat_id, 'не пиши сюда больше')
+    bot.send_photo(message.chat.id, 'https://images.meme-arsenal.com/90a9908220459a3e851c2d9db9db28ed.jpg')
+    bot.send_message(message.chat.id, 'не пиши сюда больше')
 
 GROUP_CHAT_ID = -5363411318
 

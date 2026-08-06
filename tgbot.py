@@ -17,6 +17,11 @@ app = Flask(__name__)
 def start(message):
     bot.send_message(message.chat.id, "Привет! Я бот на вебхуке.")
 
+@bot.message_handler(commands=['savemymessages'])
+def savemymessages(message):
+    vyser = message.text
+    bot.send_message(message.chat.id, "Окей, твои предыдущие сообщения: ", vyser)
+
 @bot.message_handler(func=lambda message: True)
 def echo_all(message):
     print(f"Получено сообщение: {message.text} от {message.chat.id}")

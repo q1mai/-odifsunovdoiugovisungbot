@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a7763ad5-e754-4650-ab80-c3c281a35562" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/tgbot.py" beforeDir="false" afterPath="$PROJECT_DIR$/tgbot.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="35FHAP6kFAigaAa0vpDNHcM4j0w" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.16 задание.executor": "Run",
+    "Python.17 задание.executor": "Run",
+    "Python.25 задание.executor": "Run",
+    "Python.5 задание.executor": "Run",
+    "Python.8 задание.executor": "Run",
+    "Python.tgbot.executor": "Run",
+    "Python.while.executor": "Run",
+    "Python.говнопоинфе.executor": "Run",
+    "Python.дз по if.executor": "Run",
+    "Python.егэшка.executor": "Run",
+    "Python.задание 6 черепаха.executor": "Run",
+    "Python.калькулятор.executor": "Run",
+    "Python.тест от клода.executor": "Run",
+    "Python.уйк.executor": "Run",
+    "Python.хзчеэто.executor": "Run",
+    "Python.черепаха.executor": "Run",
+    "Python.шифрование.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="PythonProject1" type="PythonConfigurationType" factoryName="Python">
+      <module name="PythonProject1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tgbot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PY-252.26830.99" />
+        <option value="bundled-python-sdk-164cda30dcd9-0af03a5fa574-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26830.99" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7763ad5-e754-4650-ab80-c3c281a35562" name="Changes" comment="" />
+      <created>1761564270632</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761564270632</updated>
+      <workItem from="1762698757354" duration="4359000" />
+      <workItem from="1763299566480" duration="3764000" />
+      <workItem from="1767811513066" duration="1578000" />
+      <workItem from="1770741533957" duration="22926000" />
+      <workItem from="1771147908788" duration="7573000" />
+      <workItem from="1771336928616" duration="28266000" />
+      <workItem from="1771666343961" duration="16010000" />
+      <workItem from="1771944409003" duration="11225000" />
+      <workItem from="1772649165598" duration="4717000" />
+      <workItem from="1772656196698" duration="1000" />
+      <workItem from="1772664962410" duration="528000" />
+      <workItem from="1772731808091" duration="3915000" />
+      <workItem from="1772908443552" duration="6856000" />
+      <workItem from="1772964497817" duration="5732000" />
+      <workItem from="1773160952911" duration="14376000" />
+      <workItem from="1773521259563" duration="8386000" />
+      <workItem from="1774549089663" duration="5469000" />
+      <workItem from="1774965921689" duration="2011000" />
+      <workItem from="1775065098293" duration="3181000" />
+      <workItem from="1775069852998" duration="903000" />
+      <workItem from="1775071763439" duration="780000" />
+      <workItem from="1775150126250" duration="4900000" />
+      <workItem from="1778096437177" duration="9546000" />
+      <workItem from="1778867400437" duration="11163000" />
+      <workItem from="1779187769988" duration="1608000" />
+      <workItem from="1779212045273" duration="11538000" />
+      <workItem from="1779998285367" duration="1831000" />
+      <workItem from="1781004739024" duration="1691000" />
+      <workItem from="1781209694096" duration="7811000" />
+      <workItem from="1781782657029" duration="78000" />
+      <workItem from="1784727360818" duration="3009000" />
+      <workItem from="1785995678920" duration="16000" />
+      <workItem from="1785995706929" duration="3158000" />
+      <workItem from="1786000254881" duration="1977000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PythonProject1$tgbot.coverage" NAME="tgbot Coverage Results" MODIFIED="1785998032281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject1$__.coverage" NAME="тест от клода Coverage Results" MODIFIED="1784727608346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject1$.coverage" NAME="хзчеэто Coverage Results" MODIFIED="1781005929826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject1$17_.coverage" NAME="17 задание Coverage Results" MODIFIED="1775150624053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject1$25_.coverage" NAME="25 задание Coverage Results" MODIFIED="1778185568592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject1$16_.coverage" NAME="16 задание Coverage Results" MODIFIED="1778097514470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject1$while.coverage" NAME="while Coverage Results" MODIFIED="1778173188250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject1$_6_.coverage" NAME="задание 6 черепаха Coverage Results" MODIFIED="1779999933253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject1$5_.coverage" NAME="5 задание Coverage Results" MODIFIED="1781269858215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject1$8_.coverage" NAME="8 задание Coverage Results" MODIFIED="1778878265844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject1$__if.coverage" NAME="дз по if Coverage Results" MODIFIED="1781007110319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

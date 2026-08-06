@@ -19,7 +19,8 @@ def start(message):
 
 @bot.message_handler(func=lambda message: 'кот на скейте' in message.text.lower())
 def kot(message):
-    bot.send_photo(message.chat.id, 'https://images.meme-arsenal.com/90a9908220459a3e851c2d9db9db28ed.jpg')
+    with open('90a9908220459a3e851c2d9db9db28ed', 'rb') as photo:
+        bot.send_photo(message.chat.id, photo)
     bot.send_message(message.chat.id, 'не пиши сюда больше')
 
 GROUP_CHAT_ID = -5363411318
@@ -38,7 +39,7 @@ def forward_to_group(message):
 @bot.message_handler(func=lambda message: True)
 def echo_all(message):
     print(f"Получено сообщение: {message.text} от {message.chat.id}")
-    bot.reply_to(message, "Ты написал: {message.text}")
+    bot.reply_to(message, f"Ты написал: {message.text}")
 
 
 @app.route(f'/{TOKEN}', methods=['POST'])

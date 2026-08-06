@@ -17,10 +17,18 @@ app = Flask(__name__)
 def start(message):
     bot.send_message(message.chat.id, "Привет! Я бот на вебхуке.")
 
-@bot.message_handler(commands=['savemymessages'])
-def savemymessages(message):
-    vyser = message.text
-    bot.send_message(message.chat.id, "Окей, твои предыдущие сообщения: ", vyser)
+GROUP_CHAT_ID = -5363411318
+
+@bot.message_handler(func=lambda message: True)
+def forward_to_group(message):
+    chat_id = message.chat.id
+    user = message.from_user
+    username = f"@{user.username}" if user.username else user.first_name
+
+    text_to_group = f"Сообщение от {username} (id: {user.id}):\n{message.text}"
+
+    bot.send_message(GROUP_CHAT_ID, text_to_group)
+    bot.reply_to(message, "Спасибо, твоё сообщение получено!")
 
 @bot.message_handler(func=lambda message: True)
 def echo_all(message):
